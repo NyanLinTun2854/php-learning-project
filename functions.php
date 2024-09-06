@@ -11,6 +11,5 @@ function dd($value)
 
 function isUrl($value)
 {
-    // echo $value . '   +  ' . $_SERVER['REQUEST_URI'];
-    echo $_SERVER['REQUEST_URI'] === $value;
+    return $_SERVER['REQUEST_URI'] === $value;
 }
