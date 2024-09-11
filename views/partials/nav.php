@@ -9,6 +9,7 @@
                     <div class="ml-10 flex items-baseline space-x-4">
                         <a href="/" class="<?= isUrl('/') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
                         <a href="/about" class="<?= isUrl('/about') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" aria-current="page">About</a>
+                        <a href="/notes" class="<?= isUrl('/notes') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Notes</a>
                         <a href="/contact" class="<?= isUrl('/contact') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
                     </div>
                 </div>
